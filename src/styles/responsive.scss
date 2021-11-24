@@ -1,0 +1,44 @@
+
+@media screen and (max-width: 600px) {
+    nav{
+        justify-content: space-between;
+    }
+
+    #myList{
+        width: 250px;    
+        min-height: 100%;
+        position: absolute;
+        background-color:#111;
+        display: none;
+    }
+
+    #myList.open {
+        display: flex;
+        transform: translate(-186px, 20px);
+        transition: transform 1s ease-in-out;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #hamburger{
+        display: inline-block;
+    }
+}
+
+
+@media screen and (min-width: 1200px){
+    .allRestaurant{
+        position: relative;
+        transform: translate(0, );
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+};
+
+
+@media screen and (max-width: 699px){
+    .innerInfo{
+        text-align: center;
+    }
+}

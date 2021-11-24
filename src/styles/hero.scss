@@ -1,0 +1,38 @@
+@media screen and (min-width: 100px){
+    .hero {
+        min-height: 500px;
+
+        picture{
+
+            img{
+                max-height: 500px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 640px){
+    .hero {
+        min-height: 650px;
+
+        picture{
+
+            img{
+                max-height: 650px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .hero {
+        min-height: 800px;
+
+        picture{
+
+            img{
+                max-height: 800px
+            }
+        }
+    }
+};
