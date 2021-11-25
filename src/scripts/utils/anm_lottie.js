@@ -1,5 +1,4 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import '@lottiefiles/lottie-player';
 import lottie from 'lottie-web';
 import animationData from '../data/myLottie.json';
 

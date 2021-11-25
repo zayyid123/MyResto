@@ -20,13 +20,14 @@ import '../styles/style.scss';
 import '../styles/hero.scss';
 import '../styles/responsive.scss';
 import '../styles/detail.scss';
-import '@fortawesome/fontawesome-free/js/all';
 
 // utilitas
 import drawer from './utils/nav_drawer.js';
 import App from './view/app.js';
 import buttonUp from './utils/button_up.js';
 import swRegister from './utils/sw-register.js';
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 
 const app = new App({
   content: document.querySelector('#mainContent'),
