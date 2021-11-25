@@ -14,7 +14,7 @@ class comHero extends HTMLElement {
             <source type="image/webp" srcset="./images/heros/hero-image_1.webp">
             <img
                 class="lazyload"
-                src="./images/heros/hero-image_1.jpg" 
+                data-src="./images/heros/hero-image_1.jpg" 
                 alt="my Hero">
             </img>
         </picture>

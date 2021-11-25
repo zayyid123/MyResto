@@ -31,5 +31,5 @@ Scenario('unliking one restaurant', async ({ I }) => {
   I.click('[aria-label="unlike this resto"]');
 
   I.amOnPage('/#/favorite');
-  I.dontSeeElement(likedRestaurantName);
+  I.dontSeeElement('.allRestaurant .card a');
 });
